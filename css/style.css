@@ -1,0 +1,85 @@
+header {
+    background-color: #6a6b6c;
+    padding: 40px 0;
+}
+
+.navbar-app {
+    border: 0;
+    margin-bottom: 0;
+    border-radius: 0;
+    background: none;
+}
+
+.navbar-app .navbar-nav>li>a,
+.navbar-app .navbar-nav>li>a:hover,
+.navbar-app .navbar-nav>li>a:focus
+{
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Open Sans';
+}
+
+.navbar-app .navbar-brand,
+.navbar-app .navbar-brand:hover
+{
+    font-family: 'Open Sans';
+    font-weight: bold;
+    color: #fff;
+    font-size: 29px;
+}
+
+.top {
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+}
+
+.motto h2 {
+    margin-top: 0;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+
+.top .buttons {
+    margin-bottom: 65px;
+}
+
+header .btn {
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 0;
+    font-size: 13px;
+    padding: 20px 0 19px 0;
+    line-height: 15px;
+    width: 170px;
+}
+
+header .btn-orange {
+    background-color: #ff6863;
+    border: 2px solid #ff6863;
+    color: white;
+    margin-right: 15px;
+}
+
+header .btn-outline-white {
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: transparent;
+    margin: 0 15px;
+}
+
+.btn-orange:hover,
+.btn-outline-white:hover,
+.btn-orange:active:focus,
+.btn-outline-white:active:focus
+{
+    color: #fff;
+    outline: none;
+}
+
+.start .glyphicon-triangle-bottom {
+    color: white;
+    font-size: 22px;
+}
