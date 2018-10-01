@@ -1,3 +1,7 @@
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+}
+
 header {
     background-color: #6a6b6c;
     padding: 40px 0;
@@ -82,4 +86,35 @@ header .btn-outline-white {
 .start .glyphicon-triangle-bottom {
     color: white;
     font-size: 22px;
+}
+
+/*about*/
+
+section.about {
+    padding: 105px 0;
+    display: flex;
+}
+
+.about div {
+    flex: 1;
+}
+
+.about div.underline {
+    width: 84px;
+    height: 2px;
+    background-color: #ff6863;
+    margin-bottom: 39px;
+}
+
+.page-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    margin-bottom: 37px;
+}
+
+.description {
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    color: #b3b3b3;
+    line-height: 2;
 }

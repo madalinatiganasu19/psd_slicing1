@@ -74,8 +74,28 @@
             </div>
 
         </header>
-        <!--endheader-->
+        <!--end header-->
 
+        <div class="container">
+            <!--about us page-->
+            <section class="about">
+                <div>
+                    <h2 class="page-title text-uppercase">About us</h2>
+                    <div class="underline"></div>
+                    <div class="description text-justify">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </div>
+                </div>
+                <div>
+                    fsdbfsdm
+                </div>
+            </section>
+            <!--end about us page-->
+        </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
