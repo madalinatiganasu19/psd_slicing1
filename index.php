@@ -79,8 +79,8 @@
                     </div>
 
                     <div class="buttons">
-                        <button class="btn btn-orange text-uppercase">Get started</button>
-                        <button class="btn btn-outline-white text-uppercase">Download now</button>
+                        <button class="btn btn-custom btn-orange text-uppercase">Get started</button>
+                        <button class="btn btn-custom btn-outline-white text-uppercase">Download now</button>
                     </div>
 
                     <div class="start">
@@ -95,7 +95,7 @@
         <div class="container">
             <!--about us page-->
             <section class="about">
-                <div>
+                <div class="about-us">
                     <h2 class="page-title text-uppercase">About us</h2>
                     <div class="underline"></div>
                     <div class="description text-justify">
@@ -105,9 +105,56 @@
                         adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
                         ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </div>
+                    <button class="btn btn-custom btn-orange text-uppercase">download now</button>
                 </div>
-                <div>
-                    fsdbfsdm
+                <div class="services">
+                    <div class="unique-design">
+                        <div class="btn-collapse">
+                            <button class="btn btn-arrow-custom" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <span class="glyphicon glyphicon-menu-right"></span>
+                            </button>
+                            <span class="btn-custom text-uppercase">Unique Design</span>
+                        </div>
+                        <div class="collapse collapse-custom" id="collapseExample">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        </div>
+                    </div>
+
+                    <div class="experience-team">
+                        <div class="btn-collapse">
+                            <button class="btn btn-arrow-custom" type="button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
+                                <span class="glyphicon glyphicon-menu-right"></span>
+                            </button>
+                            <span class="btn-custom text-uppercase">experience team</span>
+                        </div>
+                        <div class="collapse collapse-custom" id="collapseExample1">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        </div>
+                    </div>
+
+                    <div class="great-service">
+                        <div class="btn-collapse">
+                            <button class="btn btn-arrow-custom" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                                <span class="glyphicon glyphicon-menu-right"></span>
+                            </button>
+                            <span class="btn-custom text-uppercase">great service</span>
+                        </div>
+                        <div class="collapse collapse-custom" id="collapseExample2">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        </div>
+                    </div>
+
+                    <div class="free-updates">
+                        <div class="btn-collapse">
+                            <button class="btn btn-arrow-custom" type="button" data-toggle="collapse" data-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
+                                <span class="glyphicon glyphicon-menu-right"></span>
+                            </button>
+                            <span class="btn-custom text-uppercase">free updates</span>
+                        </div>
+                        <div class="collapse collapse-custom" id="collapseExample3">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        </div>
+                    </div>
                 </div>
             </section>
             <!--end about us page-->

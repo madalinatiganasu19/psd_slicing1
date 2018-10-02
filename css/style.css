@@ -51,7 +51,7 @@ header {
     margin-bottom: 65px;
 }
 
-header .btn {
+.btn-custom {
     font-family: 'Montserrat', sans-serif;
     border-radius: 0;
     font-size: 13px;
@@ -60,7 +60,7 @@ header .btn {
     width: 170px;
 }
 
-header .btn-orange {
+.btn-orange {
     background-color: #ff6863;
     border: 2px solid #ff6863;
     color: white;
@@ -95,15 +95,16 @@ header .btn-outline-white {
 /*about*/
 
 section.about {
-    padding: 105px 0;
+    padding: 105px 0 100px 0;
     display: flex;
 }
 
-.about div {
+.about div.about-us {
     flex: 1;
+    padding-right: 15px;
 }
 
-.about div.underline {
+.about-us div.underline {
     width: 84px;
     height: 2px;
     background-color: #ff6863;
@@ -121,4 +122,57 @@ section.about {
     font-family: 'Raleway', sans-serif;
     color: #b3b3b3;
     line-height: 2;
+    margin-bottom: 40px;
 }
+
+.about-us .btn-orange {
+    margin: 0;
+}
+
+.about div.services {
+    flex: 1;
+    padding-left: 15px;
+}
+
+.btn:focus, .btn:active:focus {
+    outline: none;
+}
+
+.unique-design,
+.experience-team,
+.great-service,
+.free-updates {
+    margin-bottom: 20px;
+}
+
+.services .btn-arrow-custom {
+    height: 61px;
+    width: 61px;
+    color: #000;
+    background-color: #eee;
+    border-color: #eee;
+    border-radius: 0;
+    font-size: 27px;
+}
+
+.services .btn-custom {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin-left: 15px ;
+    color: #444;
+
+}
+
+div.btn-collapse, .collapse-custom {
+    border: 1px solid #dcdcdc;
+}
+
+.services .collapse-custom {
+    border-top: none;
+    font-family: "Raleway";
+    font-size: 14px;
+    color: #828282;
+    padding: 21px 27px 27px 27px;
+}
+
+
