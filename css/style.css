@@ -1,6 +1,26 @@
+/*all*/
 h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
 }
+
+.btn:focus, .btn:active:focus {
+    outline: none;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-medium {
+    font-size: 13px;
+    width: 170px;
+}
+
+.btn-small {
+    font-size: 12px;
+}
+
+/*header*/
 
 header {
     background-color: #6a6b6c;
@@ -44,7 +64,8 @@ header {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size: 60px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
+    line-height: 96px;
 }
 
 .top .buttons {
@@ -52,12 +73,9 @@ header {
 }
 
 .btn-custom {
-    font-family: 'Montserrat', sans-serif;
     border-radius: 0;
-    font-size: 13px;
-    padding: 20px 0 19px 0;
+    padding: 20px 20px 19px 20px;
     line-height: 15px;
-    width: 170px;
 }
 
 .btn-orange {
@@ -80,11 +98,12 @@ header .btn-outline-white {
 
 .btn-orange:hover,
 .btn-outline-white:hover,
-.btn-orange:active:focus,
-.btn-outline-white:active:focus
+.btn-orange:active,
+.btn-outline-white:active,
+.btn-orange:focus,
+.btn-outline-white:focus
 {
     color: #fff;
-    outline: none;
 }
 
 .start .glyphicon-triangle-bottom {
@@ -94,27 +113,30 @@ header .btn-outline-white {
 
 /*about*/
 
-section.about {
-    padding: 105px 0 100px 0;
-    display: flex;
+.about {
+    padding: 105px 0 70px 0;
 }
 
-.about div.about-us {
-    flex: 1;
-    padding-right: 15px;
-}
-
-.about-us div.underline {
-    width: 84px;
-    height: 2px;
-    background-color: #ff6863;
-    margin-bottom: 39px;
+.about-us,
+.services
+{
+    margin-bottom: 30px;
 }
 
 .page-title {
+    position: relative;
     font-family: 'Montserrat', sans-serif;
     font-size: 32px;
-    margin-bottom: 37px;
+    margin-bottom: 78px;
+}
+
+.page-title:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -39px;
+    border-bottom: 1px solid #ff6863;
+    width: 84px;
 }
 
 .description {
@@ -129,50 +151,48 @@ section.about {
     margin: 0;
 }
 
-.about div.services {
-    flex: 1;
-    padding-left: 15px;
+.services .btn-arrow-custom {
+    color: #000;
+    background-color: #eee;
+    border: none;
+    border-radius: 0;
+    font-size: 20px;
+    padding: 16px 19px 13px 19px;
 }
 
-.btn:focus, .btn:active:focus {
-    outline: none;
-}
-
-.unique-design,
-.experience-team,
-.great-service,
-.free-updates {
+.panel-group .panel {
     margin-bottom: 20px;
 }
 
-.services .btn-arrow-custom {
-    height: 61px;
-    width: 61px;
-    color: #000;
-    background-color: #eee;
-    border-color: #eee;
-    border-radius: 0;
-    font-size: 27px;
+.services .panel-heading {
+    padding: 0;
 }
 
-.services .btn-custom {
+.panel-title {
+    display: inline;
+}
+
+.btn-arrow-custom[aria-expanded=true] {
+    background-color: #000;
+    color: #fff;
+    transform: rotate(90deg);
+}
+
+.services .panel-title>a {
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
     font-size: 14px;
     margin-left: 15px ;
     color: #444;
-
 }
 
-div.btn-collapse, .collapse-custom {
-    border: 1px solid #dcdcdc;
-}
-
-.services .collapse-custom {
-    border-top: none;
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
     font-family: "Raleway";
     font-size: 14px;
     color: #828282;
     padding: 21px 27px 27px 27px;
+    line-height: 31px;
 }
 
 

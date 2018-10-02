@@ -74,17 +74,16 @@
             <div class="container top">
                 <div>
                     <div class="motto">
-                        <h2 class="text-uppercase">We're</h2>
-                        <h2 class="text-uppercase">creative designers!</h2>
+                        <h2 class="text-uppercase">We're <br /> creative designers!</h2>
                     </div>
 
                     <div class="buttons">
-                        <button class="btn btn-custom btn-orange text-uppercase">Get started</button>
-                        <button class="btn btn-custom btn-outline-white text-uppercase">Download now</button>
+                        <button class="btn btn-custom btn-medium btn-orange text-uppercase">Get started</button>
+                        <button class="btn btn-custom btn-medium btn-outline-white text-uppercase">Download now</button>
                     </div>
 
                     <div class="start">
-                        <span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
+                        <a href="#start"><span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span></a>
                     </div>
                 </div>
             </div>
@@ -93,71 +92,97 @@
         <!--end header-->
 
         <div class="container">
-            <!--about us page-->
-            <section class="about">
-                <div class="about-us">
-                    <h2 class="page-title text-uppercase">About us</h2>
-                    <div class="underline"></div>
-                    <div class="description text-justify">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                <!--about us page-->
+                <div class="row about" id="start">
+                    <div class="col-md-6 about-us">
+                        <h2 class="page-title text-uppercase">About us</h2>
+                        <div class="description text-justify">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </div>
+                        <button class="btn btn-custom btn-orange text-uppercase">download now</button>
                     </div>
-                    <button class="btn btn-custom btn-orange text-uppercase">download now</button>
+
+                    <div class="col-md-6 services">
+                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingOne">
+                                    <button class="btn btn-arrow-custom" type="button" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <span class="glyphicon glyphicon-menu-right"></span>
+                                    </button>
+                                    <h4 class="panel-title text-uppercase">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            Unique design
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                    <div class="panel-body text-justify">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingTwo">
+                                    <button class="btn btn-arrow-custom" type="button"data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <span class="glyphicon glyphicon-menu-right"></span>
+                                    </button>
+                                    <h4 class="panel-title text-uppercase">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            Experience team
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                    <div class="panel-body text-justify">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingThree">
+                                    <button class="btn btn-arrow-custom" type="button" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        <span class="glyphicon glyphicon-menu-right"></span>
+                                    </button>
+                                    <h4 class="panel-title text-uppercase">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            Great service
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                    <div class="panel-body text-justify">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingOne">
+                                    <button class="btn btn-arrow-custom" type="button" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseOne">
+                                        <span class="glyphicon glyphicon-menu-right"></span>
+                                    </button>
+                                    <h4 class="panel-title text-uppercase">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseOne">
+                                           Free updates
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                                    <div class="panel-body text-justify">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="services">
-                    <div class="unique-design">
-                        <div class="btn-collapse">
-                            <button class="btn btn-arrow-custom" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                                <span class="glyphicon glyphicon-menu-right"></span>
-                            </button>
-                            <span class="btn-custom text-uppercase">Unique Design</span>
-                        </div>
-                        <div class="collapse collapse-custom" id="collapseExample">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        </div>
-                    </div>
-
-                    <div class="experience-team">
-                        <div class="btn-collapse">
-                            <button class="btn btn-arrow-custom" type="button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
-                                <span class="glyphicon glyphicon-menu-right"></span>
-                            </button>
-                            <span class="btn-custom text-uppercase">experience team</span>
-                        </div>
-                        <div class="collapse collapse-custom" id="collapseExample1">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        </div>
-                    </div>
-
-                    <div class="great-service">
-                        <div class="btn-collapse">
-                            <button class="btn btn-arrow-custom" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
-                                <span class="glyphicon glyphicon-menu-right"></span>
-                            </button>
-                            <span class="btn-custom text-uppercase">great service</span>
-                        </div>
-                        <div class="collapse collapse-custom" id="collapseExample2">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        </div>
-                    </div>
-
-                    <div class="free-updates">
-                        <div class="btn-collapse">
-                            <button class="btn btn-arrow-custom" type="button" data-toggle="collapse" data-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
-                                <span class="glyphicon glyphicon-menu-right"></span>
-                            </button>
-                            <span class="btn-custom text-uppercase">free updates</span>
-                        </div>
-                        <div class="collapse collapse-custom" id="collapseExample3">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!--end about us page-->
+                <!--end about us page-->
         </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
