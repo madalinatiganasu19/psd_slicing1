@@ -13,13 +13,17 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-medium {
     font-size: 13px;
-    width: 170px;
+    min-width: 170px;
 }
 
 .btn-small {
     font-size: 12px;
 }
 
+hr {
+    height: 2px;
+    background-color: #c8c8c8;
+}
 /*header*/
 
 header {
@@ -73,25 +77,26 @@ header {
 }
 
 .btn-custom {
+    color: #fff;
     border-radius: 0;
     padding: 20px 20px 19px 20px;
-    line-height: 15px;
 }
 
 .btn-orange {
     background-color: #ff6863;
     border: 2px solid #ff6863;
-    color: white;
-    margin-right: 15px;
 }
 
 .badge-custom {
     background-color: #ff6863;
 }
 
+header .btn-orange {
+    margin-right: 15px;
+}
+
 header .btn-outline-white {
     border: 2px solid #fff;
-    color: #fff;
     background-color: transparent;
     margin: 0 15px;
 }
@@ -147,10 +152,6 @@ header .btn-outline-white {
     margin-bottom: 40px;
 }
 
-.about-us .btn-orange {
-    margin: 0;
-}
-
 .services .btn-arrow-custom {
     color: #000;
     background-color: #eee;
@@ -188,11 +189,15 @@ header .btn-outline-white {
 }
 
 .panel-default>.panel-heading+.panel-collapse>.panel-body {
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-size: 14px;
     color: #828282;
     padding: 21px 27px 27px 27px;
     line-height: 31px;
 }
 
+/*features*/
 
+.features {
+    padding: 75px 0 105px 0;
+}

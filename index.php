@@ -92,8 +92,8 @@
         <!--end header-->
 
         <div class="container">
-                <!--about us page-->
-                <div class="row about" id="start">
+            <!--about us page-->
+            <div class="row about" id="start">
                     <div class="col-md-6 about-us">
                         <h2 class="page-title text-uppercase">About us</h2>
                         <div class="description text-justify">
@@ -103,7 +103,7 @@
                             adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
                             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                         </div>
-                        <button class="btn btn-custom btn-orange text-uppercase">download now</button>
+                        <button class="btn btn-custom btn-medium btn-orange text-uppercase">download now</button>
                     </div>
 
                     <div class="col-md-6 services">
@@ -182,7 +182,27 @@
                         </div>
                     </div>
                 </div>
-                <!--end about us page-->
+            <!--end about us page-->
+        </div>
+
+        <hr class="page-divider">
+
+        <div class="container">
+            <!--about us page-->
+            <div class="row features">
+                <div class="col-md-4">
+                        1
+                </div>
+
+                <div class="col-md-4">
+                    2
+                </div>
+
+                <div class="col-md-4">
+                    3
+                </div>
+            </div>
+            <!--end about us page-->
         </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
