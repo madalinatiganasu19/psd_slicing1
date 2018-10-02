@@ -67,6 +67,10 @@ header .btn-orange {
     margin-right: 15px;
 }
 
+.badge-custom {
+    background-color: #ff6863;
+}
+
 header .btn-outline-white {
     border: 2px solid #fff;
     color: #fff;

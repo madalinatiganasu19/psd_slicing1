@@ -50,6 +50,22 @@
                             <li><a href="#">Team</a></li>
                             <li><a href="#">Blog</a></li>
                             <li><a href="#">Contact</a></li>
+                            <li>
+                                <a href="#">
+                                    <span class="glyphicon glyphicon-shopping-cart"></span>
+                                    <sup><span class="badge badge-custom">0</span></sup>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="glyphicon glyphicon-search"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="glyphicon glyphicon-menu-hamburger"></span>
+                                </a>
+                            </li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
