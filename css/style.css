@@ -20,9 +20,31 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 12px;
 }
 
-hr {
+hr.page-divider{
     height: 2px;
     background-color: #c8c8c8;
+    margin-top:  0;
+    margin-bottom: 0;
+}
+
+.btn-custom {
+    color: #fff;
+    border-radius: 0;
+    padding: 20px 20px 19px 20px;
+}
+
+.btn-orange {
+    background-color: #ff6863;
+    border: 2px solid #ff6863;
+}
+
+.btn-outline-white {
+    border: 2px solid #fff;
+    background: transparent;
+}
+
+.badge-custom {
+    background-color: #ff6863;
 }
 /*header*/
 
@@ -44,13 +66,13 @@ header {
 {
     color: #fff;
     font-size: 17px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
 }
 
 .navbar-app .navbar-brand,
 .navbar-app .navbar-brand:hover
 {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     color: #fff;
     font-size: 29px;
@@ -76,28 +98,13 @@ header {
     margin-bottom: 65px;
 }
 
-.btn-custom {
-    color: #fff;
-    border-radius: 0;
-    padding: 20px 20px 19px 20px;
-}
-
-.btn-orange {
-    background-color: #ff6863;
-    border: 2px solid #ff6863;
-}
-
-.badge-custom {
-    background-color: #ff6863;
-}
-
-header .btn-orange {
+header .btn-orange,
+.hire-us .btn-orange {
     margin-right: 15px;
 }
 
-header .btn-outline-white {
-    border: 2px solid #fff;
-    background-color: transparent;
+header .btn-outline-white,
+.hire-us .btn-outline-white {
     margin: 0 15px;
 }
 
@@ -130,7 +137,6 @@ header .btn-outline-white {
 
 .page-title {
     position: relative;
-    font-family: 'Montserrat', sans-serif;
     font-size: 32px;
     margin-bottom: 78px;
 }
@@ -138,18 +144,27 @@ header .btn-outline-white {
 .page-title:after {
     content: "";
     position: absolute;
+    border-bottom: 1px solid #ff6863;
+}
+
+.about-us .page-title {
+    font-family: 'Montserrat', sans-serif;
+}
+.about-us .page-title:after {
     left: 0;
     bottom: -39px;
-    border-bottom: 1px solid #ff6863;
     width: 84px;
 }
 
 .description {
     font-size: 14px;
     font-family: 'Raleway', sans-serif;
-    color: #b3b3b3;
-    line-height: 2;
+    line-height: 31px;
     margin-bottom: 40px;
+}
+
+.about-us .description {
+    color: #b3b3b3;
 }
 
 .services .btn-arrow-custom {
@@ -179,13 +194,19 @@ header .btn-outline-white {
     transform: rotate(90deg);
 }
 
-.services .panel-title>a {
+.panel-title>a,
+.features .item-title,
+.services-list .item-title
+{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     text-decoration: none;
     font-size: 14px;
-    margin-left: 15px ;
     color: #444;
+}
+
+.panel-title>a {
+    margin-left: 15px;
 }
 
 .panel-default>.panel-heading+.panel-collapse>.panel-body {
@@ -196,8 +217,135 @@ header .btn-outline-white {
     line-height: 31px;
 }
 
+.features .item-body,
+.services-list .item-body {
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    line-height: 31px;
+}
+
+.features .item-body {
+    color: #666666;
+}
+
+.services-list .item-body {
+    color: #959595;
+}
+
 /*features*/
 
 .features {
     padding: 75px 0 105px 0;
+}
+
+.features .glyphicon {
+    color: #fff;
+    background-color: #ff6863;
+    padding: 17px;
+    font-size: 30px;
+    border: 5px solid #ffd1d0;
+    border-radius: 50%;
+}
+
+.features .item-header
+{
+    display: flex;
+    align-items: center;
+    padding-bottom: 35px;
+}
+
+.features .item-header .item-icon
+{
+    flex: 1;
+}
+
+.features .item-header .item-title
+{
+    flex: 3;
+}
+
+/*featured-work*/
+.featured-work {
+    padding: 140px 0 110px;
+}
+
+.featured-work .page-title,
+.our-services .page-title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.featured-work .page-title:after,
+.our-services .page-title:after{
+    left: 47%;
+    bottom:  -39px;
+    width: 84px;
+}
+
+.featured-work .description,
+.our-services .description
+{
+    color: #565656;
+}
+
+.our-services {
+    padding: 110px 0;
+}
+
+.our-services .services-list {
+    padding: 120px 0;
+}
+
+.services-list .item-icon {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.services-list .item-title {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.our-services .item-title:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -22px;
+    border-bottom: 1px solid #ff6863;
+    width: 30px;
+}
+
+/**/
+
+.hire-us {
+    background-color: #525252;
+    padding: 93px 0 120px 0;
+}
+
+.hire-us .page-title {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+.hire-us .subtitle {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    color: #b2b3b3;
+    margin-bottom: 60px;
+}
+
+.slider {
+    width: 100%;
+}
+
+.slider img {
+    position: relative;
+    width: 100%;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+.slider img .slick-current:hover {
+    background-color: #0f0f0f;
 }
