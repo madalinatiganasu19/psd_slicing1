@@ -459,6 +459,27 @@ header .btn-outline-white,
     padding:  110px 0 145px 0;
 }
 
+.counters .counter-number {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 55px;
+    position: relative;
+}
+
+.counters .counter-number:after {
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid #ff6863;
+    left: calc(50% - 22px);
+    bottom: -25px;
+    width: 44px;
+}
+
+.counters .counter-for {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
 /*----------media queries---------------*/
 
 @media only screen and (max-width: 375px) {
