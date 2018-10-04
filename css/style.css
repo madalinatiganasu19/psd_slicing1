@@ -237,7 +237,11 @@ header .btn-outline-white,
 /*features*/
 
 .features {
-    padding: 75px 0 105px 0;
+    padding: 60px 0 105px 0;
+}
+
+.features .item {
+    padding-bottom: 15px;
 }
 
 .features .glyphicon {
@@ -297,7 +301,11 @@ header .btn-outline-white,
 }
 
 .our-services .services-list {
-    padding: 120px 0;
+    padding: 105px 0;
+}
+
+.services-list .item {
+    padding-bottom: 15px;
 }
 
 .services-list .item-icon {
