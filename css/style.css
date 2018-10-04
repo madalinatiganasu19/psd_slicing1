@@ -347,6 +347,7 @@ header .btn-outline-white,
     margin-bottom: 60px;
 }
 
+/*slider*/
 .slider {
     width: 100%;
 }
@@ -362,6 +363,7 @@ header .btn-outline-white,
     background-color: #0f0f0f;
 }
 
+/*portfolio*/
 .portfolio {
     padding: 140px 0 160px 0;
     background-color: #f2f2f2;
@@ -379,6 +381,13 @@ header .btn-outline-white,
     header .btn-outline-white,
     .hire-us .btn-outline-white {
         margin-left: 0;
+    }
+
+    header .btn-outline-white,
+    .hire-us .btn-outline-white,
+    header .btn-orange,
+    .hire-us .btn-orange {
+        margin-right: 0;
     }
 
     .motto h2 {
