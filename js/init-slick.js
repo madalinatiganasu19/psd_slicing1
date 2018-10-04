@@ -1,0 +1,10 @@
+window.onload=function(){
+    $('.slider').slick({
+        autoplay:true,
+        autoplaySpeed:1500,
+        arrows:false,
+        centerMode:true,
+        slidesToShow:3,
+        slidesToScroll:1
+    });
+};

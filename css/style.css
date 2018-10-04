@@ -95,17 +95,19 @@ header {
 }
 
 .top .buttons {
-    margin-bottom: 65px;
+    margin-bottom: 50px;
 }
 
 header .btn-orange,
 .hire-us .btn-orange {
     margin-right: 15px;
+    margin-bottom: 15px;
 }
 
 header .btn-outline-white,
 .hire-us .btn-outline-white {
     margin: 0 15px;
+    margin-bottom: 15px;
 }
 
 .btn-orange:hover,
@@ -262,6 +264,7 @@ header .btn-outline-white,
 .features .item-header .item-title
 {
     flex: 3;
+    margin-left: 15px;
 }
 
 /*featured-work*/
@@ -276,8 +279,9 @@ header .btn-outline-white,
 }
 
 .featured-work .page-title:after,
-.our-services .page-title:after{
-    left: 47%;
+.our-services .page-title:after,
+.portfolio .page-title:after {
+    right: 46%;
     bottom:  -39px;
     width: 84px;
 }
@@ -348,4 +352,30 @@ header .btn-outline-white,
 
 .slider img .slick-current:hover {
     background-color: #0f0f0f;
+}
+
+.portfolio {
+    padding: 140px 0 160px 0;
+    background-color: #f2f2f2;
+}
+
+.portfolio .description {
+    color: #7d7d7d;
+    margin-bottom: 110px;
+}
+
+/*----------media queries---------------*/
+
+@media only screen and (max-width: 375px) {
+    /* For mobile phones: */
+    header .btn-outline-white,
+    .hire-us .btn-outline-white {
+        margin-left: 0;
+    }
+
+    .motto h2 {
+        font-size: 50px;
+        line-height: 80px;
+    }
+
 }

@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>Bootstrap 101 Template</title>
+        <title>Rage</title>
 
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -198,7 +198,7 @@
         <div class="container">
             <!--about us page-->
             <div class="row features">
-                <div class="col-md-4">
+                <div class="col-sm-4">
                     <div class="item">
                         <div class="item-header">
                             <div class="item-icon">
@@ -214,7 +214,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-sm-4">
                     <div class="item">
                         <div class="item-header">
                             <div class="item-icon">
@@ -230,7 +230,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-sm-4">
                     <div class="item">
                         <div class="item-header">
                             <div class="item-icon">
@@ -255,6 +255,7 @@
         </div>
         <!--end video-->
 
+        <!--featured-work-->
         <div class="container">
             <div class="row featured-work">
                 <h2 class="page-title text-uppercase text-center">
@@ -267,29 +268,33 @@
                 </div>
             </div>
         </div>
+        <!--end featured-work-->
 
-        <div >
-            <div class="slider">
-                <div class="slide">
-                    <img src="https://picsum.photos/g/200/150/?random" alt="" class="" />
-                </div>
-                <div class="slide">
-                    <img src="https://picsum.photos/g/200/150/?random" alt="" class="" />
-                </div>
-                <div class="slide">
-                    <img src="https://picsum.photos/g/200/150/?random" alt="" class="" />
-                </div>
-                <div class="slide">
-                    <img src="https://picsum.photos/g/200/150/?random" alt="" class="" />
-                </div>
-                <div class="slide">
-                    <img src="https://picsum.photos/g/200/150/?random" alt="" class="" />
-                </div>
+        <!--slider-->
+        <div class="slider">
+            <div class="slide">
+                <img src="https://picsum.photos/g/200/150/?random"/>
+            </div>
 
+            <div class="slide">
+                <img src="https://picsum.photos/g/200/150/?random"/>
+            </div>
+
+            <div class="slide">
+                <img src="https://picsum.photos/g/200/150/?random"/>
+            </div>
+
+            <div class="slide">
+                <img src="https://picsum.photos/g/200/150/?random"/>
+            </div>
+
+            <div class="slide">
+                <img src="https://picsum.photos/g/200/150/?random"/>
             </div>
         </div>
+        <!--end slider-->
 
-
+        <!--our services-->
         <div class="container">
             <div class="our-services">
                 <div class="row">
@@ -353,7 +358,9 @@
                 </div>
             </div>
         </div>
+        <!--end our services-->
 
+        <!--hire us-->
         <div class="hire-us text-center">
             <h2 class="page-title text-uppercase">Impressed? Let's work together</h2>
             <div class="subtitle">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias</div>
@@ -361,34 +368,28 @@
             <button class="btn btn-orange btn-medium btn-custom text-uppercase">Hire us</button>
             <button class="btn btn-outline-white btn-medium btn-custom text-uppercase">Hire us</button>
         </div>
+        <!--end hire-us-->
 
-
+        <!--portfolio-->
+        <div class="portfolio">
+            <div class="container">
+                <h2 class="page-title text-uppercase text-center">our portfolio</h2>
+                <div class="description text-center">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+                <img src="https://picsum.photos/g/200/150/?random">
+            </div>
+        </div>
+        <!--end portfolio-->
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script type="text/javascript" src="slick/slick.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-
-        <script>
-            /*$('.autoplay').slick({
-                slidesToShow: 3,
-                slidesToScroll: 1,
-                autoplay: true,
-                autoplaySpeed: 2000,
-            });
-*/
-            window.onload=function(){
-                $('.slider').slick({
-                    autoplay:true,
-                    autoplaySpeed:1500,
-                    arrows:true,
-                    centerMode:true,
-                    slidesToShow:3,
-                    slidesToScroll:1
-                });
-            };
-        </script>
+        <script src="js/init-slick.js"></script>
 
     </body>
 </html>
