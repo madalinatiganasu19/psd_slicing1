@@ -42,7 +42,7 @@ hr.page-divider{
 .btn-custom {
     color: #fff;
     border-radius: 0;
-    padding: 18px 20px 17px 20px;
+    padding: 17px 20px 15px 20px;
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     font-weight: 600;
@@ -66,7 +66,9 @@ hr.page-divider{
 .page-title {
     position: relative;
     font-size: 32px;
-    margin-bottom: 78px;
+    margin-bottom: 61px;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 
 .page-title:after {
@@ -79,6 +81,11 @@ input:focus {
     outline: none;
     box-shadow: none;
     border: 1px solid #ff6863;
+}
+
+.narrow-text {
+    margin: 0 auto;
+    display: inline-block;
 }
 
 
@@ -114,9 +121,10 @@ header {
 }
 
 .top {
-    min-height: 750px;
+    min-height: 725px;
     display: flex;
     align-items: flex-end;
+    padding-bottom: 102px;
 }
 
 .motto h2 {
@@ -125,7 +133,7 @@ header {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size: 60px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
     line-height: 96px;
     letter-spacing: 4px;
 }
@@ -166,7 +174,7 @@ header .btn-outline-white,
 /*about*/
 
 .about {
-    padding: 105px 0 70px 0;
+    padding: 102px 0 47px 0;
 }
 
 .about-us,
@@ -183,15 +191,16 @@ header .btn-outline-white,
 .about-us .page-title:after,
 .skills .page-title:after {
     left: 0;
-    bottom: -39px;
+    bottom: -32px;
     width: 84px;
 }
 
 .description {
     font-size: 14px;
     font-family: 'Raleway', sans-serif;
-    line-height: 31px;
-    margin-bottom: 40px;
+    line-height: 30px;
+    margin-bottom: 35px;
+    word-spacing: 4px;
 }
 
 .about-us .description {
@@ -204,11 +213,11 @@ header .btn-outline-white,
     border: none;
     border-radius: 0;
     font-size: 20px;
-    padding: 16px 19px 13px 19px;
+    padding: 17px 20px 14px 20px;
 }
 
 .panel-group .panel {
-    margin-bottom: 20px;
+    margin-bottom: 19px;
 }
 
 .services .panel-heading {
@@ -237,15 +246,16 @@ header .btn-outline-white,
 }
 
 .panel-title>a {
-    margin-left: 15px;
+    margin-left: 17px;
 }
 
 .panel-default>.panel-heading+.panel-collapse>.panel-body {
     font-family: "Raleway", sans-serif;
     font-size: 14px;
     color: #828282;
-    padding: 21px 27px 27px 27px;
+    padding: 17px 27px 13px 27px;
     line-height: 31px;
+    word-spacing: 2px;
 }
 
 .features .item-body,
@@ -266,7 +276,7 @@ header .btn-outline-white,
 /*features*/
 
 .features {
-    padding: 60px 0 105px 0;
+    padding: 75px 0 80px 0;
 }
 
 .features .item,
@@ -277,7 +287,7 @@ header .btn-outline-white,
 .features .glyphicon {
     color: #fff;
     background-color: #ff6863;
-    padding: 17px;
+    padding: 15px;
     font-size: 30px;
     border: 5px solid #ffd1d0;
     border-radius: 50%;
@@ -287,7 +297,7 @@ header .btn-outline-white,
 {
     display: flex;
     align-items: center;
-    padding-bottom: 35px;
+    padding-bottom: 25px;
 }
 
 .features .item-header .item-icon
@@ -298,12 +308,19 @@ header .btn-outline-white,
 .features .item-header .item-title
 {
     flex: 3;
-    margin-left: 15px;
+    margin-left: -7px;
+    letter-spacing: 2px;
 }
 
 /*featured-work*/
 .featured-work {
-    padding: 140px 30px 110px;
+    padding: 130px 30px 66px;
+}
+
+.featured-work .page-title,
+.our-services .page-title
+{
+    margin-bottom: 70px;
 }
 
 .featured-work .page-title,
@@ -320,7 +337,7 @@ header .btn-outline-white,
 .blog .page-title:after
 {
     left: calc(50% - 42px);
-    bottom:  -39px;
+    bottom:  -34px;
     width: 84px;
 }
 
@@ -331,24 +348,24 @@ header .btn-outline-white,
 }
 
 .our-services {
-    padding: 110px 30px 215px;
+    padding: 140px 0 205px;
 }
 
 .our-services .description {
-    margin-bottom: 105px;
+    margin-bottom: 110px;
 }
 
 .services-list .item-icon {
     font-size: 35px;
     line-height: 0;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .services-list .item-title,
 .contact .title
 {
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom:37px;
 }
 
 .our-services .item-title:after,
@@ -357,7 +374,7 @@ header .btn-outline-white,
     content: "";
     position: absolute;
     left: 0;
-    bottom: -22px;
+    bottom: -21px;
     border-bottom: 2px solid #ff6863;
     width: 30px;
 }
@@ -367,7 +384,7 @@ header .btn-outline-white,
 
 .hire-us {
     background-color: #525252;
-    padding: 93px 30px 120px 30px;
+    padding: 93px 0 105px 0;
 }
 
 .hire-us .title {
@@ -375,7 +392,9 @@ header .btn-outline-white,
     color: #fff;
     position: relative;
     font-size: 32px;
-    margin-bottom: 78px;
+    margin-bottom: 45px;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 
 .hire-us .subtitle {
@@ -383,7 +402,7 @@ header .btn-outline-white,
     font-size: 16px;
     line-height: 28px;
     color: #b2b3b3;
-    margin-bottom: 60px;
+    margin-bottom: 47px;
 }
 /*----------------*/
 /*---------------slider------------*/
@@ -394,10 +413,13 @@ header .btn-outline-white,
 .slider img {
     position: relative;
     width: 100%;
+    height: 273px;
 }
 
 .slider .slide {
-    padding: 0 3px;
+
+    margin-left: 3px;
+    margin-right: 3px;
 }
 
 .slider .slick-active:focus {
@@ -425,18 +447,26 @@ div.slide.slick-slide .text {
 /*----------------------------------*/
 /*----------------portfolio grid ---------------*/
 .portfolio {
-    padding: 140px 0 160px 0;
+    padding: 139px 0 160px 0;
     background-color: #f2f2f2;
+}
+
+.portfolio .page-title {
+    margin-bottom: 63px;
+}
+
+.portfolio .page-title:after {
+    bottom: -32px;
 }
 
 .portfolio .description {
     color: #7d7d7d;
-    margin-bottom: 110px;
+    margin-bottom: 105px;
 }
 
 .portfolio .wrapper {
     display: grid;
-    grid-gap: 15px;
+    grid-gap: 32px;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #f2f2f2;
 }
@@ -453,28 +483,35 @@ div.slide.slick-slide .text {
 .a {
     grid-column: 1 / 3;
     grid-row: 1;
+    height: 283px;
 }
 .b {
     grid-column: 3 ;
     grid-row: 1 / 3;
+    height: 599px;
+
 }
 .c {
     grid-column: 1 ;
     grid-row: 2 ;
+    height: 283px;
 }
 .d {
     grid-column: 2;
     grid-row: 2;
+    height: 283px;
 }
 
 .e {
     grid-column: 1;
     grid-row: 3;
+    height: 283px;
 }
 
 .f {
     grid-column: 2 / 4;
     grid-row: 3;
+    height: 283px;
 }
 
 .img-hover,
@@ -491,15 +528,15 @@ div.slide .options {
 
 .img-hover .text {
     position: absolute;
-    left: calc(50% - 80px);
-    top: calc(50% - 75px);
+    left: calc(50% - 88px);
+    top: calc(50% - 65px);
 }
 
 .text .hover-title {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 600;
-    margin-bottom: 18px;
+    margin-bottom: 10px;
 }
 .text .hover-description {
     font-family: 'Raleway', sans-serif;
@@ -512,9 +549,9 @@ div.slide .options {
     border: 1px solid #9b9b9b;
     color: #9b9b9b;
     border-radius: 50%;
-    padding: 15px;
-    margin-left: 5px;
-    margin-right: 5px;
+    padding: 13px;
+    margin-left: 4px;
+    margin-right: 4px;
 }
 
 .portfolio .text .glyphicon:hover {
@@ -539,6 +576,10 @@ div.slide.slick-slide:hover .options
     margin-bottom: 15px;
 }
 
+.skills .page-title {
+    margin-bottom: 70px;
+}
+
 .skills .progress-stats {
     margin-bottom: 15px;
 }
@@ -546,34 +587,38 @@ div.slide.slick-slide:hover .options
 .skills .description {
     color: #828282;
     margin-bottom: 0;
+    word-spacing: 4px;
 }
 
 .skills .stats {
-    margin-bottom: 45px;
+    margin-bottom: 40px;
 }
 
 .skills .stats div {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 19px;
+    word-spacing: 2px;
 }
 
 .skills .stats .progress {
     background-color: #eee;
+    height: 10px;
+    border-radius: 0;
 }
 
 /*----------------------------------*/
 /*-----------------counters----------------*/
 .counters {
-    padding:  110px 0 145px 0;
+    padding:  90px 0 141px 0;
 }
 
 .counters .counter-number {
     font-family: 'Montserrat', sans-serif;
     font-size: 45px;
     font-weight: bold;
-    margin-bottom: 55px;
+    margin-bottom: 35px;
     position: relative;
 }
 
@@ -582,22 +627,24 @@ div.slide.slick-slide:hover .options
     position: absolute;
     border-bottom: 2px solid #ff6863;
     left: calc(50% - 22px);
-    bottom: -25px;
+    bottom: -13px;
     width: 44px;
 }
 
 .counters .counter-for {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
+    letter-spacing: 2px;
 }
 
 /*---------------------------------*/
 /*------------------testimonials carousel---------------*/
 .testimonials {
+
 }
 
-
-.carousel img {
+.carousel-inner>.item>img {
+    height: 581px;
     width: 100%;
 }
 
@@ -605,8 +652,8 @@ div.slide.slick-slide:hover .options
     display: flex;
     top: 0;
     bottom: 0;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
     align-items: center;
     justify-content: center;
 }
@@ -614,7 +661,7 @@ div.slide.slick-slide:hover .options
 .carousel-title {
     font-family: 'Montserrat', sans-serif;
     font-size: 32px;
-    margin-bottom: 95px;
+    margin-bottom: 80px;
     font-weight: bold;
 }
 
@@ -622,7 +669,7 @@ div.slide.slick-slide:hover .options
     font-family: 'Raleway', sans-serif;
     line-height: 30px;
     font-size: 14px;
-    margin-bottom: 45px;
+    margin-bottom: 35px;
 }
 
 .carousel-author {
@@ -634,41 +681,46 @@ div.slide.slick-slide:hover .options
 
 .carousel-rating .glyphicon-star {
     color: #ffbf00;
+    font-size: 20px;
 }
 /*-------------------------------*/
 /*-------------pricing-----------------*/
 .pricing {
-    padding: 140px 0;
+    padding: 125px 0 130px;
     background-color: #f2f2f2;
 }
 
 .pricing .panel {
-    box-shadow: 0 0 25px #dcdcdc;
-    border-top: 5px solid #f4f4f4;
+    box-shadow: 0 0 15px #999;
+    border-top: 4px solid #f4f4f4;
 }
 
 .pricing .panel:hover {
-    border-top: 5px solid #ff6863;
+    border-top: 4px solid #ff6863;
 }
 
 .pricing .page-title {
-    margin-bottom: 100px;
+    margin-bottom: 85px;
+}
+
+.pricing .page-title:after {
+    bottom: -30px;
 }
 
 .pricing .description {
     font-family: 'Open Sans', sans-serif;
-    margin-bottom: 75px;
+    margin-bottom: 70px;
 }
 
 .pricing .panel-heading {
     color: #ff6863;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
-    font-weight: bold;
+    font-weight: bolder;
     background-color: #f4f4f4;
     border-bottom-color: #cecccc;
-    padding-top:  50px;
-    padding-bottom:  135px;
+    padding-top:  40px;
+    padding-bottom:  125px;
     position: relative;
 }
 
@@ -677,11 +729,12 @@ div.slide.slick-slide:hover .options
 .pricing .price {
     position: absolute;
     background-color: #ff6863;
-    left: calc(50% - 75px);
-    bottom: -80px;
+    left: calc(50% - 70px);
+    bottom: -81px;
     color: #fff;
     border-radius: 50%;
     padding: 40px;
+    border: 2px solid #fff;
 
 }
 
@@ -700,7 +753,7 @@ div.slide.slick-slide:hover .options
 /*------pricing body---------*/
 
 .pricing .panel-body {
-    padding: 135px 35px 50px;
+    padding: 135px 35px 47px;
 }
 
 .benetits-item {
@@ -719,23 +772,27 @@ div.slide.slick-slide:hover .options
 }
 
 .benetits-item ul {
-    margin-bottom: 55px;
+    margin-bottom: 50px;
     text-align: left;
 }
 
 .benetits-item ul li {
     margin-bottom: 30px;
+    padding-left: 15px;
 }
 
 .pricing .btn-custom {
     padding-left: 30px;
     padding-right: 30px;
+    padding-bottom: 13px;
+    padding-top: 13px;
+    letter-spacing: 0;
 }
 /*-------------------------*/
 
 /*------sponsors---------*/
 .sponsors {
-    padding: 140px 0 160px;
+    padding: 140px 0 135px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -750,17 +807,20 @@ div.slide.slick-slide:hover .options
 
 /*---subscribe-------*/
 .subscribe {
-    padding: 85px 0 115px;
+    padding: 80px 0 103px;
     background-color: #525252;
 }
 
 .subscribe .page-title {
     color: #fff;
+    margin-bottom: 27px;
 }
 
 .subscribe .description {
     color: #81868e;
-    margin-bottom: 70px;
+    margin-bottom: 66px;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .subscribe .form {
@@ -798,7 +858,7 @@ div.slide.slick-slide:hover .options
 
 .subscribe input[type="email"] {
     background-color: transparent;
-    padding: 12px 25px;
+    padding: 12px 22px;
 }
 
 .subscribe input::placeholder {
@@ -811,12 +871,17 @@ div.slide.slick-slide:hover .options
 /*-------------blog---------------*/
 
 .blog {
-    padding: 140px 0 135px;
+    padding: 128px 0 135px;
 }
 
 .blog .page-title {
     font-family: 'Montserrat', sans-serif;
     font-size: 32px;
+    letter-spacing: 1px;
+}
+
+.blog .page-title:after {
+    bottom: -29px;
 }
 
 .blog .description {
@@ -828,21 +893,28 @@ div.slide.slick-slide:hover .options
 }
 
 .blog .blog-card img {
-    margin-bottom: 33px;
+    margin-bottom: 28px;
+
+}
+
+.blog .img-responsive {
+    height: 245px;
+    width: 100%;
 }
 
 .blog .card-title {
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 
 .blog .card-description {
     color: #a0a0a0;
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
-    margin-bottom: 35px;
+    margin-bottom: 33px;
+    word-spacing: 3px;
 }
 
 /*-----------------------*/
@@ -850,7 +922,7 @@ div.slide.slick-slide:hover .options
 .map {
     background: url("https://picsum.photos/800/250/?image=960") no-repeat fixed;
     background-size: cover;
-    padding: 50px 15px;
+    padding: 46px 15px;
     position: relative;
 }
 
@@ -881,7 +953,7 @@ div.slide.slick-slide:hover .options
 /*-----------contact---------*/
 .contact {
     background-color: #2a2a2a;
-    padding: 140px 0 85px;
+    padding: 138px 0 85px;
 }
 
 .contact .title {
@@ -889,10 +961,18 @@ div.slide.slick-slide:hover .options
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.contact .title:after {
+    bottom: -15px;
 }
 
 .contact .description {
     color: #fff;
+    line-height: 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
 }
 
 .contact .social-media .glyphicon{
