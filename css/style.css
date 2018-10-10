@@ -133,7 +133,7 @@ header {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size: 60px;
-    margin-bottom: 50px;
+    margin-bottom: 51px;
     line-height: 96px;
     letter-spacing: 4px;
 }
@@ -164,6 +164,10 @@ header .btn-outline-white,
 .btn-outline-white:focus
 {
     color: #fff;
+}
+
+header .btn-custom {
+    padding-top: 14px;
 }
 
 .start .glyphicon-triangle-bottom {
@@ -765,6 +769,7 @@ div.slide.slick-slide:hover .options
 
 .benetits-item ul li.check{
     list-style-image: url('../images/ok-16.png');
+    color: #6d6d6d;
 }
 
 .benetits-item ul li.text-muted{
@@ -778,7 +783,7 @@ div.slide.slick-slide:hover .options
 
 .benetits-item ul li {
     margin-bottom: 30px;
-    padding-left: 15px;
+    padding-left: 19px;
 }
 
 .pricing .btn-custom {
@@ -856,9 +861,10 @@ div.slide.slick-slide:hover .options
     padding: 12px;
 }
 
-.subscribe input[type="email"] {
+.subscribe input[type="text"] {
     background-color: transparent;
     padding: 12px 22px;
+    color: #c1c5c6;
 }
 
 .subscribe input::placeholder {
@@ -907,6 +913,7 @@ div.slide.slick-slide:hover .options
     font-size: 15px;
     font-weight: bold;
     margin-bottom: 16px;
+    word-spacing: 4px;
 }
 
 .blog .card-description {
@@ -914,7 +921,7 @@ div.slide.slick-slide:hover .options
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     margin-bottom: 33px;
-    word-spacing: 3px;
+    word-spacing: 5px;
 }
 
 /*-----------------------*/
@@ -953,7 +960,7 @@ div.slide.slick-slide:hover .options
 /*-----------contact---------*/
 .contact {
     background-color: #2a2a2a;
-    padding: 138px 0 85px;
+    padding: 139px 0 73px;
 }
 
 .contact .title {
@@ -966,6 +973,7 @@ div.slide.slick-slide:hover .options
 
 .contact .title:after {
     bottom: -15px;
+    width: 35px;
 }
 
 .contact .description {
@@ -978,23 +986,31 @@ div.slide.slick-slide:hover .options
 .contact .social-media .glyphicon{
     color: #fff;
     background-color: #434343;
-    padding: 15px;
+    padding: 12px;
     border-radius: 50%;
     margin-right: 4px;
     margin-left: 4px;
 }
 
 .contact .form-control {
-    margin-bottom: 30px;
+    margin-bottom: 32px;
     border-radius:  0;
 }
 
 .contact input[type="text"],
 .contact textarea
 {
-    padding: 20px;
+    padding: 22px;
     background-color: transparent;
     border-color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.contact input[type="text"] {
+    padding: 26px;
 }
 
 .contact input[type="text"]:focus,
@@ -1005,6 +1021,11 @@ div.slide.slick-slide:hover .options
     box-shadow: none;
 }
 
+.contact .input[type="submit"] {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
 .contact .contact-form,
 .contact .contact-details
 {
@@ -1013,13 +1034,14 @@ div.slide.slick-slide:hover .options
 /*------------------------*/
 /*------footer------------*/
 .footer {
-    background-color: #000;
+    background-color: #212121;
     color: #fff;
     padding: 35px;
-    font-size: 14px;
+    font-size: 13px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     letter-spacing: 2px;
+    word-spacing: 2px;
 }
 /*--------------------------------*/
 
